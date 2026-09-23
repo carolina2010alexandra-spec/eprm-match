@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EPRM Match</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- ==================== INÍCIO ==================== -->
+
+        <section id="inicio" class="screen active">
+
+            <div class="logo-area">
+                <div class="logo-placeholder">EPRM</div>
+            </div>
+
+            <div class="intro">
+
+                <p class="eyebrow">
+                    EPRM EMBAIXADORES
+                </p>
+
+                <h1>
+                    EPRM<br>
+                    <span>MATCH</span>
+                </h1>
+
+                <p class="subtitle">
+                    Descobre onde podes deixar a tua marca.
+                </p>
+
+                <p class="description">
+                    Responde a algumas perguntas sobre aquilo de que gostas,
+                    a forma como pensas e o que imaginas para o teu futuro.
+                    No final, descobre qual das áreas da EPRM combina mais contigo.
+                </p>
+
+                <button id="start-btn" class="primary-button">
+                    COMEÇAR
+                    <span>→</span>
+                </button>
+
+            </div>
+
+            <p class="bottom-text">
+                10 PERGUNTAS · 7 ÁREAS · 1 MATCH
+            </p>
+
+        </section>
+
+
+        <!-- ==================== QUIZ ==================== -->
+
+        <section id="quiz" class="screen">
+
+            <div class="quiz-header">
+
+                <div class="quiz-top">
+
+                    <span id="numeroPergunta">
+                        01
+                    </span>
+
+                    <span id="totalPerguntas">
+                        / 10
+                    </span>
+
+                </div>
+
+                <div class="progress-container">
+                    <div id="progressBar"></div>
+                </div>
+
+            </div>
+
+
+            <div class="question-area">
+
+                <p class="question-label">
+                    EPRM MATCH
+                </p>
+
+                <h2 id="questionText">
+                    Pergunta
+                </h2>
+
+                <div id="answersContainer" class="answers">
+                    <!-- Respostas inseridas pelo JavaScript -->
+                </div>
+
+            </div>
+
+
+            <div class="quiz-footer">
+                ESCOLHE A RESPOSTA QUE MAIS TE REPRESENTA
+            </div>
+
+        </section>
+
+
+        <!-- ==================== LOADING ==================== -->
+
+        <section id="loading" class="screen">
+
+            <div class="loading-content">
+
+                <p class="eyebrow">
+                    EPRM MATCH
+                </p>
+
+                <div class="loader"></div>
+
+                <h2>
+                    A descobrir<br>
+                    o teu Match...
+                </h2>
+
+                <p>
+                    Estamos a cruzar as tuas respostas
+                    com os diferentes perfis da EPRM.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== RESULTADO ==================== -->
+
+        <section id="resultado" class="screen">
+
+            <div class="result-content">
+
+                <div class="result-icon">
+                    E
+                </div>
+
+                <p class="eyebrow">
+                    O TEU RESULTADO
+                </p>
+
+                <h1 id="resultTitle">
+                    O teu Match
+                </h1>
+
+                <p id="resultCourses" class="result-courses">
+                    EPRM
+                </p>
+
+                <div class="result-line"></div>
+
+                <p id="resultDescription" class="result-description">
+                    Descrição do resultado.
+                </p>
+
+                <div id="resultTags" class="result-tags">
+                    <!-- Tags -->
+                </div>
+
+                <div class="result-buttons">
+
+                    <button id="courseBtn" class="primary-button">
+                        CONHECER ESTE MATCH
+                        <span>→</span>
+                    </button>
+
+                    <button id="restartBtn" class="secondary-button">
+                        FAZER NOVAMENTE
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== CURSO ==================== -->
+
+        <section id="curso" class="screen">
+
+            <div class="course-content">
+
+                <div id="courseIcon" class="course-icon">
+                    ✦
+                </div>
+
+                <p class="eyebrow">
+                    CONHECE MELHOR
+                </p>
+
+                <h1 id="courseTitle">
+                    Curso
+                </h1>
+
+                <p id="courseDescription">
+                    Informação sobre o curso.
+                </p>
+
+                <div class="course-box">
+
+                    <h3>
+                        O TEU PERFIL
+                    </h3>
+
+                    <p id="courseProfile">
+                        Perfil.
+                    </p>
+
+                </div>
+
+                <div class="course-box">
+
+                    <h3>
+                        ÁREAS
+                    </h3>
+
+                    <p id="courseAreas">
+                        Áreas.
+                    </p>
+
+                </div>
+
+                <div class="course-box">
+
+                    <h3>
+                        NA EPRM
+                    </h3>
+
+                    <p id="courseEprm">
+                        Informação.
+                    </p>
+
+                </div>
+
+                <button id="courseRestartBtn" class="primary-button">
+                    FAZER O MATCH NOVAMENTE
+                    <span>↻</span>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
