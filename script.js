@@ -9,7 +9,7 @@
 ========================================================= */
 
 const GOOGLE_SHEETS_URL =
-    "https://script.google.com/macros/s/AKfycbyLCzgRe_YNCncbYtgRHiv_VP5hCqEvu2KHoN6MJYOeDnCiCEJWpln_cSQK7tXk6VbOaQ/exec";
+    "https://script.google.com/macros/s/AKfycbzk6j_zOXcxWTsz2IYPQs3eJUYrgg4Bf_jyA5dtqDjhx8Ewt6STGvgEhyyILpgprF_Q/exec";
 
 
 /* =========================================================
